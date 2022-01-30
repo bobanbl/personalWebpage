@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@font-face{
+    font-family: Arizona;
+    src: url('../assets/fonts/Arizonia-Regular.ttf');
+
+}
+
+
+*{
+    font-family:Arizona;
+    
+}
+h1{
+    transition: all 5s;
+    color: blueviolet;
+    font-size: 30px;
+    
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
+
+h2, span, #test1{
+    text-decoration: underline;
+}
+
+.gruen{
+    color: green;
+}
+
+.notUnderline{
+    text-decoration: none;
+}
+
+.rot{
+    color: red;
+    
+}
+
+.fett{
+    font-weight: bold;
+}
+
+.c1.c2.c3{
+    font-size: 50px;
+}
+
+div.c1 div.c2{
+    border: 2px solid tomato;
+    height: 200px;
+}
+
+.box1{
+    border: 5px solid tomato;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 80px;
+    left: 80px;
+    z-index: 999;
+}
+
+.box2{
+    border: 5px solid green;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 80px;
+    left: 80px;
+}
+
+.box3{
+    border: 5px solid purple;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+.box4{
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+}
+
+.rahmen5blau{
+    border: 5px solid blue;
+}
+
+.mybox1{
+    background-color: lightpink;
+    border: 5px solid brown;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 50%;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 25px;
+    padding-bottom: 1px;
+}
+
+.mybox2{
+    background-color: lightskyblue;
+    border: 5px solid blueviolet;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    overflow: auto; /* hidden, scroll, auto, visible(default) */
+}
+
+.mybox3{
+    background-color: lightgrey;
+    border: 5px solid gray;
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    overflow: hidden; /* hidden, scroll, auto, visible(default) */
+    z-index: -1;
+}
+
+.mybox3:hover{
+    z-index: 999;
+}
+
+.floatingBox{
+    background-color: lightgreen;
+    border: 5px solid green;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    float: left;
+    margin-right: 20px;
+    transition: top 4s, border 2s;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.floatingBox p{
+    top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.floatingBox:hover{
+    top: 20px;
+    border: 5px solid darkmagenta;
+    color: darkmagenta;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.floatingBox:hover + .floatingBox + .floatingBox{
+    top: 20px;
+    border: 5px solid darkmagenta;
+}
+
+
+
+
+
+
+
+
+
