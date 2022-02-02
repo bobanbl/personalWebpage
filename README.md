@@ -1,5 +1,6 @@
 # Personal Webpage
 The Webpage from this project can be visited unter www.bobanblazevski.gq
+and uses different templates, which are specified in the code
 
 ## Languages, Frameworks, Libraries,..
 * HTML5
